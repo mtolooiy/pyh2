@@ -12,6 +12,7 @@ public class MainController {
 
     @RequestMapping("/users")
     public String users(){
+        int x;
         return ("users");
     }
 
